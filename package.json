@@ -62,7 +62,11 @@
     "vinyl-paths": "^2.1.0",
     "yargs": "^6.3.0"
   },
+  "jspmNodeConversion": false,
   "jspm": {
+      "directories": {
+      "lib": "dist"
+    },
     "dependencies": {
       "aurelia-animator-css": "npm:aurelia-animator-css@^1.0.0",
       "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0",
